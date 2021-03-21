@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "10\r\n10",
+      "output": "Jumlah ubin minimum: 10",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "5\r\n5",
+      "output": "Jumlah ubin minimum: 10",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "3\r\n6",
+      "output": "Jumlah ubin minimum: 9",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "5\r\n6",
+      "output": "Jumlah ubin minimum: 9",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "7\r\n11",
+      "output": "Jumlah ubin minimum: 26",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "8\r\n5",
+      "output": "Jumlah ubin minimum: 10",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "1\r\n10",
+      "output": "Jumlah ubin minimum: 10",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "20\r\n21",
+      "output": "Jumlah ubin minimum: 30",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "11\r\n13",
+      "output": "Jumlah ubin minimum: 32",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "1\r\n1",
+      "output": "Jumlah ubin minimum: 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
